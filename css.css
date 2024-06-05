@@ -1,0 +1,89 @@
+body {
+    margin: 3rem;
+    font-family: sans-serif;
+    background-color: rgb(86, 86, 66);
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(236, 202, 8);
+  }
+  
+  section {
+    margin: 2rem auto;
+    width: 95%;
+    max-width: 50rem;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    background-color: rgb(114, 243, 222);
+  }
+  
+  button {
+    font: inherit;
+    cursor: pointer;
+    background-color: rgb(163, 21, 245);
+    border: 1px solid  rgb(163, 21, 245);
+    ;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: rgb(197, 120, 242);
+    border-color: rgb(197, 120, 242);
+  }
+  
+  .control {
+    margin: 1rem 0;
+  }
+  
+  label, 
+  input {
+    display: block;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    font: inherit;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    border: 1px solid rgb(156, 153, 136);
+    width: 3rem;
+    max-width: 100%;
+    padding: 0.5rem;
+    color: rgb(40, 34, 34);
+  }
+  
+  input:focus {
+    background-color: rgb(248, 239, 187);
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(121, 10, 186);
+  }
+  
+  .output {
+    font-weight: bold;
+    background-color: rgb(174, 79, 229);
+    padding: 0.25rem;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  a.highlight {
+    background-color: rgb(246, 246, 246);
+    padding: 0.25rem;
+  }
+  
+  #calculated-sum {
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    display: none;
+  }
